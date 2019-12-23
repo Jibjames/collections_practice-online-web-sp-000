@@ -20,3 +20,9 @@ def swap_elements(array)
   array[1] = i
   return array
 end
+
+def reverse_array(array)
+  array.sort |a, b|
+    b.index <=> a.index
+  end
+end
