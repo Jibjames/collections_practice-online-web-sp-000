@@ -28,8 +28,8 @@ end
 def kesha_maker(array)
 
   array.map do |name|
-    new_name = name.split
-    new_name[2] = "$"
-    new_name.join
+    name.split
+    name[2] = "$"
+    name.join
   end
 end
