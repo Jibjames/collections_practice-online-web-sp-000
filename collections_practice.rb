@@ -31,5 +31,6 @@ def kesha_maker(array)
     name = name.split
     name[2] = "$"
     name.join
+    new_array << name
   end
 end
