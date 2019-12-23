@@ -32,4 +32,5 @@ def kesha_maker(array)
     name[2] = "$"
     name = name.join
   end
+  array
 end
