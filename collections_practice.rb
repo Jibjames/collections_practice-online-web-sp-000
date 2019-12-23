@@ -33,4 +33,5 @@ def kesha_maker(array)
     name.join
     new_array << name
   end
+  return new_array
 end
