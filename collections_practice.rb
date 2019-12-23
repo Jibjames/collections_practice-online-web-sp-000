@@ -23,6 +23,6 @@ end
 
 def reverse_array(array)
   array.sort do |a, b|
-    b.index <=> a.index
+    array[b] <=> array[a]
   end
 end
